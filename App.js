@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { View, SafeAreaView, StyleSheet } from 'react-native'
-import Button from './components/Button'
-import Display from './components/Display'
+import Button from './src/components/Button'
+import Display from './src/components/Display'
 
 export default App => {
 const [displayValue, setDisplayValue] = useState(0)
