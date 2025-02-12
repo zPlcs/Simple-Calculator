@@ -13,7 +13,7 @@ export default props => {
   if (props.operacao) varButtons.push(estilo.buttonOperacao)
 
   return (
-    <TouchableOpacity style={varButtons}>
+    <TouchableOpacity style={varButtons} onPress={props.onClick}>
       <Text style={estilo.buttonTxt}>{props.label}</Text>
     </TouchableOpacity>
   );
